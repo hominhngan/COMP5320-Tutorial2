@@ -3,7 +3,9 @@
 **Format:** semi-structured, 45–60 minutes · **Stakeholder:** restaurant manager (runs service, not the owner)
 **Goal:** understand current delivery workflows, pain points and needs. No features are being validated.
 
-## Review of round 1
+## My review of round 1
+
+I read every question in `01_interview_guide.md` as the manager would. These four were leading, so I asked the agent to rewrite them in neutral wording:
 
 | Question | Problem | Fix |
 |---|---|---|

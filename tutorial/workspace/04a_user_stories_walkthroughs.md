@@ -1,7 +1,8 @@
 # Input for Part C: Sam's user stories and walkthrough notes (W1–W4)
 
-> **Simulated research.** These notes were written by an AI agent role-playing four restaurant
-> managers who tried a clickable prototype of the tablet. Treat the notes as simulated.
+> **Note to the instructor: simulated research.** I wrote the user stories for the persona I chose
+> in Part B. For the walkthroughs, I used an AI agent to role-play four restaurant managers trying a
+> clickable prototype of the tablet. The walkthrough notes are simulated.
 
 ## User stories for Sam, the Short-Staffed Night Manager
 

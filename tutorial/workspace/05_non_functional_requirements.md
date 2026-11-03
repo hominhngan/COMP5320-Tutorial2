@@ -18,8 +18,9 @@ Scope: the restaurant tablet and the order service behind it. Sources: the stake
 | NFR-12 | Portability | The tablet app shall run on 100% of the [TBC] tablet models and OS versions restaurants already own. *Ask: which tablets do partner restaurants use today?* | Release builds | Device test matrix on each listed model | FR-01 to FR-24 |
 | NFR-13 | Compliance | The tablet shall hide a customer's phone number within [TBC] hours after the order is completed (GDPR data minimisation). *Ask: how long does the restaurant need the number after delivery?* | EU customers' personal data | Automated test that the field is empty after the period | FR-21 |
 
-## Review and iteration
+## My review
 
-- Every threshold not given by the constraints is `[TBC]` with a question. The fixed values follow from the constraints: 0 stored card numbers (third-party payments), 0 lost orders (Wi-Fi drops must not lose orders), 100% encrypted traffic (personal data under GDPR).
-- One category per row; all 8 categories are covered.
-- All related FRs exist in FR-01 to FR-24.
+- I checked that every threshold not given by the constraints is `[TBC]` with a question. The fixed values follow from the constraints: 0 stored card numbers (third-party payments), 0 lost orders (Wi-Fi drops must not lose orders), 100% encrypted traffic (personal data under GDPR).
+- In my first version, NFR-06 stated "TLS 1.2" and NFR-11 joined two categories. I changed TLS 1.2 to `[TBC]` because it was not in the constraints, and split NFR-11 so each category has its own metric.
+- I checked that all 8 categories are covered and that all related FRs exist in FR-01 to FR-24.
+- Next step: take the `[TBC]` questions to a stakeholder (or a teammate playing one) and put the answers back.

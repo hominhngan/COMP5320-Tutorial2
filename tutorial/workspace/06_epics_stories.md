@@ -95,7 +95,9 @@ Sources: persona Sam, the Short-Staffed Night Manager (`03_personas.md`); FR-01 
 - Given two orders arrived during the drop, when the connection returns, then both orders appear and alert.
 - *Covers:* FR-23, FR-24, NFR-03, NFR-04
 
-## Coverage check
+## My coverage check
+
+I checked that each story is a vertical slice a manager could see working, has 2–4 acceptance criteria, and has no story points. Coverage of the requirements:
 
 | Item | Covered by |
 |---|---|

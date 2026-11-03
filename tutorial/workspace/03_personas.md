@@ -80,10 +80,10 @@ Quang treats delivery as a side business that must not disturb dine-in guests. Q
 
 **Sam** is limited by people: too few hands, away from the tablet. **Thu** is limited by process and volume: everything must follow the procedure at speed. **Quang** is limited by priorities: delivery comes after dine-in.
 
-## Review
+## My review
 
-- Every bullet was traced to its source tags in `03a_interview_notes.md`; each section has 3–5 bullets.
-- No demographic details are included; the notes give none that affect behaviour.
-- Goals were checked to be end goals (outcomes), not tasks.
-- Persona 3 rests on only two interviews (I4, I6); treat it as weaker evidence.
-- **Persona chosen for Parts C–E: Sam, the Short-Staffed Night Manager.**
+- I traced every bullet to its source tags in `03a_interview_notes.md`, and checked that each section has 3–5 bullets.
+- I checked that there are no demographic details; the notes give none that affect behaviour.
+- I checked that the goals are end goals (outcomes), not tasks.
+- Persona 3 is based on only two interviews (I4, I6), so I treat it as weaker evidence.
+- **I chose Sam, the Short-Staffed Night Manager, for Parts C–E**, because Sam's problems (orders timing out, slow sold-out updates, no shared order status) appear in the most sources.
