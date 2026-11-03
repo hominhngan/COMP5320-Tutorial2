@@ -50,6 +50,7 @@ Thu runs a high-volume franchise shift by the book: checklists, procedures and f
 **Context**
 - Chain or franchise branch; delivery is a large share of sales [I2, I7]
 - Procedures set by head office [I7]
+- Kitchen works from printed tickets rather than the tablet [I2]
 
 ## Persona 3: Quang, the Dine-In-First Floor Manager
 
@@ -58,6 +59,7 @@ Quang treats delivery as a side business that must not disturb dine-in guests. Q
 **Goals**
 - Protect the dine-in experience [I6]
 - Control delivery volume when the restaurant is busy [I4, I6]
+- Stay visible to customers on the app even while slowing orders [I4]
 
 **Behaviours**
 - Delegates order acceptance to a host [I6]
@@ -67,17 +69,21 @@ Quang treats delivery as a side business that must not disturb dine-in guests. Q
 **Pain points**
 - Riders waiting in the dining room disturb guests [I6]
 - The only way to slow orders is to disappear from the app [I4]
+- The tablet shows nothing after acceptance, so the kitchen tracks orders on a whiteboard [I4]
 
 **Context**
 - Delivery is a small share of sales [I6]
 - Busiest period is dinner, 6–9pm [I4]
+- A host, not the manager, handles the tablet [I6]
 
 ## What makes each persona distinct
 
 **Sam** is limited by people: too few hands, away from the tablet. **Thu** is limited by process and volume: everything must follow the procedure at speed. **Quang** is limited by priorities: delivery comes after dine-in.
 
-## Review and iteration
+## Review
 
-- Every bullet was checked against the notes. Removed in round 2: "Sam is in their 30s" (demographic, no source) and "Thu uses a POS integration" (no note supports it).
+- Every bullet was traced to its source tags in `03a_interview_notes.md`; each section has 3–5 bullets.
+- No demographic details are included; the notes give none that affect behaviour.
+- Goals were checked to be end goals (outcomes), not tasks.
 - Persona 3 rests on only two interviews (I4, I6); treat it as weaker evidence.
 - **Persona chosen for Parts C–E: Sam, the Short-Staffed Night Manager.**

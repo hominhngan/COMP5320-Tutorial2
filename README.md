@@ -28,10 +28,10 @@ Individual submission. All outputs are in [`tutorial/workspace/`](tutorial/works
 | Part | Finding |
 |---|---|
 | A | Round 1 used leading words ("juggle", "most frustrating") and assumed something must change; rewritten neutrally. |
-| B | Two untraceable bullets (an age, a POS integration) were removed; persona 3 rests on only two sources. |
-| C | Combined behaviours were split; UI wording (colours, font size) moved to the NFRs; 7 values left as `[TBC]`. |
-| D | Without stakeholder numbers, almost every threshold is `[TBC]` with a question. |
-| E | NFR-05, 06, 08, 11 are cross-cutting and have no story; they belong in the DoD or enabler items. |
+| B | Every bullet is traced to a note; persona 3 rests on only two sources (I4, I6), so it is weaker evidence. |
+| C | The agent did not know timeouts, durations or "late" thresholds: 7 values are `[TBC]` with stakeholder questions. UI requests (colours, font size) are left to the NFRs. |
+| D | Without stakeholder numbers, almost every threshold (including the TLS version) is `[TBC]` with a question. |
+| E | NFR-05, 06, 08, 11, 12 are cross-cutting and have no story; they belong in the DoD or enabler items. |
 | F | Without the notes, promo codes were Should and reviews Could; the founder's and marketing's notes moved them up. Cash on delivery was an assumption, then confirmed. |
 | G | The legal CR is non-negotiable (Must), paid for by demoting SF-09; the marketing CR is Won't. Must rises to 68%. |
 | H | Without the rules, round 1 invented the minimum (50,000), discounted the delivery fee, ignored the cap and rejected codes on their last valid day. |

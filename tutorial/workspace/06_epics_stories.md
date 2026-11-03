@@ -1,6 +1,6 @@
 # Backlog: Restaurant tablet (SoopiFood)
 
-Sources: persona Sam, the Short-Staffed Night Manager (`03_personas.md`); FR-01 to FR-24; NFR-01 to NFR-12. Team: 5 developers, 2-week sprints. No story points (estimated at sprint planning).
+Sources: persona Sam, the Short-Staffed Night Manager (`03_personas.md`); FR-01 to FR-24; NFR-01 to NFR-13. Team: 5 developers, 2-week sprints. No story points (estimated at sprint planning).
 
 ## Epic 1: Order intake
 
@@ -36,6 +36,7 @@ Sources: persona Sam, the Short-Staffed Night Manager (`03_personas.md`); FR-01 
 
 **ST-05.** As Sam, I want to see open orders that contain a dish I just marked unavailable, so that I can contact those customers.
 - Given two open orders contain grilled squid, when I mark grilled squid unavailable, then both orders are listed.
+- Given no open order contains grilled squid, when I mark it unavailable, then no orders are listed.
 - *Covers:* FR-12
 
 ### Feature 2.2: Pause orders
@@ -85,7 +86,7 @@ Sources: persona Sam, the Short-Staffed Night Manager (`03_personas.md`); FR-01 
 - Given a completed order, when I refund one item with a reason, then only that item is refunded.
 - Given a refund, when it is processed, then no card number is stored on the tablet.
 - Given the order was completed [TBC] hours ago, when I open it, then the customer's phone number is hidden.
-- *Covers:* FR-21, FR-22, NFR-07, NFR-12
+- *Covers:* FR-21, FR-22, NFR-07, NFR-13
 
 ### Feature 5.2: Offline handling
 
@@ -99,5 +100,5 @@ Sources: persona Sam, the Short-Staffed Night Manager (`03_personas.md`); FR-01 
 | Item | Covered by |
 |---|---|
 | FR-01 to FR-24 | All covered (ST-01 to ST-12) |
-| NFR-01, 02, 03, 04, 07, 09, 10, 12 | ST-01, ST-02, ST-12, ST-11, ST-07 |
-| **NFR-05** (availability), **NFR-06** (TLS), **NFR-08** (scalability), **NFR-11** (maintainability/portability) | **Not covered by a story.** These are cross-cutting: add them to the Definition of Done or as technical enabler items. |
+| NFR-01, 02, 03, 04, 07, 09, 10, 13 | ST-01, ST-02, ST-12, ST-11, ST-07 |
+| **NFR-05** (availability), **NFR-06** (encryption), **NFR-08** (scalability), **NFR-11** (maintainability), **NFR-12** (portability) | **Not covered by a story.** These are cross-cutting: add them to the Definition of Done or as technical enabler items. |

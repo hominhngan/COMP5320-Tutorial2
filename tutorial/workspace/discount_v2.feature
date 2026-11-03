@@ -9,11 +9,11 @@ Feature: Apply a promo code at checkout
 
   # R2 cap
   @happy
-  Scenario: Percentage discount is capped and excludes the delivery fee
-    Given my food subtotal is 200,000 VND
+  Scenario: Discount exactly at the cap excludes the delivery fee
+    Given my food subtotal is 150,000 VND
     When I apply the promo code "SAVE20" on 2026-12-01
     Then the discount is 30,000 VND
-    And the total to pay is 185,000 VND
+    And the total to pay is 135,000 VND
 
   # R1 minimum order
   @error

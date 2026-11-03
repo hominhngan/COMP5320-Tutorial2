@@ -51,10 +51,11 @@ Scope: the restaurant tablet only. Sources: Sam's user stories (US-01 to US-11) 
 | FR-23 | The system shall indicate when the tablet has lost its connection to the order service. | System | US-11, W4 |
 | FR-24 | The system shall deliver every order received by the order service during a connection loss once the connection returns. | System | US-11, W4 |
 
-## Review and iteration
+## Review
 
-- Split in round 2: "accept the order and set a prep time" → FR-04 + FR-07; "mark unavailable and hide it" → FR-09 + FR-10.
-- Removed as UI, not behaviour: "large order numbers", "colour by stage" (W3). Moved to the NFRs (usability).
+- Each requirement was checked for one behaviour: accepting (FR-04) and setting a prep time (FR-07) are separate, as are marking an item unavailable (FR-09) and hiding it (FR-10).
+- W3's requests for "large order numbers" and "colour by stage" describe the UI, not behaviour, so they are not FRs; readability is covered by the NFRs (usability, NFR-09).
+- No value missing from the sources was invented; each is `[TBC]`.
 
 ### [TBC] questions for stakeholders
 
