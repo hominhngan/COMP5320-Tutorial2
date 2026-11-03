@@ -1,7 +1,7 @@
 # Interview and observation notes (I1–I8, O1–O2)
 
-> **Simulated research.** No real managers were available, so these notes come from interviews
-> simulated with an AI agent playing restaurant managers, using the round 2 guide
+> **Simulated research.** No real managers were available, so these notes were written by an AI agent role-playing
+> eight restaurant managers answering the round 2 guide
 > (`02_interview_guide_iterate.md`). Each manager was given a different restaurant profile. Treat
 > every fact below as simulated, not as field data.
 
