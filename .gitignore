@@ -1,3 +1,8 @@
 tutorial.zip
 *.pdf
 __MACOSX/
+tutorial/solutions/
+tutorial/starter/
+tutorial/README.md
+tutorial/TUTORIAL.md
+tutorial/workspace/.gitkeep

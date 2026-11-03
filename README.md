@@ -1,6 +1,13 @@
 # COMP5320 Tutorial #2: Requirements Engineering with AI agents (SoopiFood)
 
-Individual submission. All outputs are in [`tutorial/workspace/`](tutorial/workspace/); the original tutorial (prompts, starter files, sample solutions) is in [`tutorial/`](tutorial/README.md).
+Individual submission. All outputs are in [`tutorial/workspace/`](tutorial/workspace/).
+
+## How it was done
+
+- Each part ran the course prompt (`starter/prompts/01`–`12`) with an AI coding agent that reads and writes files, in order A → I; Parts A–E each build on the previous output.
+- Every part followed the loop **Round 1 (agent) → Review → Round 2 with more context → Review**, asking each time *what did the agent not know?*
+- Part F round 1 used only the backlog; round 2 added the stakeholder notes. Part H round 1 had only the user story; round 2 (same session) added the business rules R1–R3.
+- Review findings are kept in each output file (A–E) and summarised in the table at the end of this page.
 
 > Parts B and C need interview, observation and walkthrough notes. No real restaurant managers were available, so those notes were **simulated with an AI agent** playing the managers, as the tutorial allows. They are marked as simulated in the files.
 
